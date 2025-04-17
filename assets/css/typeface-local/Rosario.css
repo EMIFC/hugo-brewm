@@ -4,7 +4,6 @@
     font-weight: 400;
     font-display: swap;
     src: url(/css/fonts/Rosario-Regular.woff2) format('woff2');
-    size-adjust: 90%;
     descent-override: 33%;
 }
 
@@ -14,7 +13,6 @@
     font-weight: 400;
     font-display: swap;
     src: url(/css/fonts/Rosario-Italic.woff2) format('woff2');
-    size-adjust: 90%;
     descent-override: 33%;
 }
 
@@ -24,7 +22,6 @@
     font-weight: 700;
     font-display: swap;
     src: url(/css/fonts/Rosario-Bold.woff2) format('woff2');
-    size-adjust: 90%;
     descent-override: 33%;
 }
 
@@ -34,10 +31,10 @@
     font-weight: 700;
     font-display: swap;
     src: url(/css/fonts/Rosario-BoldItalic.woff2) format('woff2');
-    size-adjust: 90%;
     descent-override: 33%;
 }
 
 :root {
     --sf: 'Rosario';
+    --sf-ex-adjust: 90%;
 }

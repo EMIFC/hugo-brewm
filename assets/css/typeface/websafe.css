@@ -1,8 +1,11 @@
 :root {
     --rm: 'Times New Roman';
+    --rm-ex-adjust: 102%;
     --rmosf: 'Palatino';
     --sf: Arial;
+    --sf-ex-adjust: 87%;
     --tt: 'Courier New';
+    --tt-ex-adjust: 107%;
 }
 
 /* :root {

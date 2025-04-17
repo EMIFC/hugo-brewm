@@ -4,7 +4,6 @@
     font-weight: 400;
     font-display: swap;
     src: url(https://raw.githubusercontent.com/JulietaUla/Montserrat/master/fonts/webfonts/Montserrat-Regular.woff2) format('woff2');
-    size-adjust: 85%;
     ascent-override: 104%;
     descent-override: 36%;
     line-gap-override: 50%;
@@ -16,7 +15,6 @@
     font-weight: 400;
     font-display: swap;
     src: url(https://raw.githubusercontent.com/JulietaUla/Montserrat/master/fonts/webfonts/Montserrat-Italic.woff2) format('woff2');
-    size-adjust: 85%;
     ascent-override: 104%;
     descent-override: 36%;
     line-gap-override: 50%;
@@ -28,7 +26,6 @@
     font-weight: 700;
     font-display: swap;
     src: url(https://raw.githubusercontent.com/JulietaUla/Montserrat/master/fonts/webfonts/Montserrat-Bold.woff2) format('woff2');
-    size-adjust: 85%;
     ascent-override: 104%;
     descent-override: 36%;
     line-gap-override: 50%;
@@ -40,7 +37,6 @@
     font-weight: 700;
     font-display: swap;
     src: url(https://raw.githubusercontent.com/JulietaUla/Montserrat/master/fonts/webfonts/Montserrat-BoldItalic.woff2) format('woff2');
-    size-adjust: 85%;
     ascent-override: 104%;
     descent-override: 36%;
     line-gap-override: 50%;
@@ -48,4 +44,5 @@
 
 :root {
     --sf: 'Montserrat';
+    --sf-ex-adjust: 85%;
 }

@@ -5,7 +5,6 @@
     font-display: swap;
     src: local('Lexica Ultralegible'),
          url(/css/fonts/LexicaUltralegible-Regular.woff2) format('woff2');
-    size-adjust: 93%;
     ascent-override: 95%;
     descent-override: 33%;
 }
@@ -17,7 +16,6 @@
     font-display: swap;
     src: local('Lexica Ultralegible Italic'),
          url(/css/fonts/LexicaUltralegible-Italic.woff2) format('woff2');
-    size-adjust: 93%;
     ascent-override: 95%;
     descent-override: 33%;
 }
@@ -29,7 +27,6 @@
     font-display: swap;
     src: local('Lexica Ultralegible Bold'),
          url(/css/fonts/LexicaUltralegible-Bold.woff2) format('woff2');
-    size-adjust: 93%;
     ascent-override: 95%;
     descent-override: 33%;
 }
@@ -41,11 +38,11 @@
     font-display: swap;
     src: local('Lexica Ultralegible Bold Italic'),
          url(/css/fonts/LexicaUltralegible-BoldItalic.woff2) format('woff2');
-    size-adjust: 93%;
     ascent-override: 95%;
     descent-override: 33%;
 }
 
 :root {
     --sf: 'Lexica Ultralegible';
+    --sf-ex-adjust: 93%;
 }
